@@ -1,0 +1,7 @@
+Give syntax and use of fclose  (  ) functions
+---->   int fclose(FILE *stream);
+        use :
+        he fclose() function is used to close a file that has been 
+        opened by functions like fopen(). Closing the file ensures all 
+        data is saved and resources are freed.
+

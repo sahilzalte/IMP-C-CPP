@@ -21,8 +21,8 @@ public:
 
 int main()
 {
-    Base *basePtr=new Derived; // Pointer of type Base
-    
+    Base *basePtr = new Derived; // Pointer of type Base
+
     // Calling virtual function using base class pointer
     basePtr->display(); // Calls Derived class's display() because of virtual function
 
